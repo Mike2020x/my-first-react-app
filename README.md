@@ -26,7 +26,7 @@ This is a solution to the  my-first-react-app project of the Make It Real course
 
 ### Screenshot
 
-![](./creenshot.jpg)
+![](/Screenshot.jpg)
 
 ## My process
 

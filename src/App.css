@@ -1,0 +1,60 @@
+:root {
+  --Black: #333333;
+  --Gray2: #4f4f4f;
+}
+
+body {
+  font-family: monospace;
+  min-height: 100vh;
+}
+header {
+  padding-left: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+}
+.left img {
+  width: 40vw;
+}
+.right {
+  width: 40%;
+}
+.right h2 {
+  font-size: 28px;
+  color: var(--Black);
+  width: 15rem;
+  font-weight: bold;
+}
+
+.right p {
+  font-size: 18px;
+  color: var(--Gray2);
+  width: 16rem;
+  padding: 1rem 0;
+}
+
+.right button {
+  background-color: var(--Black);
+  color: white;
+  padding: 1rem;
+}
+.right button:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: center;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+}
